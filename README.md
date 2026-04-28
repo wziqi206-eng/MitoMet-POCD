@@ -135,13 +135,17 @@ The project will be developed through the following workflow:
 
 ## 9. Planned Public Datasets
 
-| Dataset | Purpose | Priority |
+This project does not treat any single public dataset as the main source of discovery. Instead, datasets are used in different roles within a cross-dataset validation framework.
+
+| Dataset | Role in This Project | Priority |
 |---|---|---|
-| GSE95426 | Main POCD hippocampus dataset | A |
-| GSE178995 | Mitochondrial / respiratory chain validation | A |
-| GSE115440 | Inflammation / NF-kB validation | B |
-| GSE95070 | Optional miRNA regulatory analysis | B |
-| GSE161340 | Optional cell-type reference dataset | C |
+| GSE95426 | Initial pilot dataset for workflow testing and module-level analysis | A |
+| GSE178995 | Mitochondrial and respiratory-chain validation dataset | A |
+| GSE115440 | Inflammation and NF-kB validation dataset | B |
+| GSE95070 | Optional miRNA regulatory-layer dataset | B |
+| GSE161340 | Optional aging hippocampus cell-type reference dataset | C |
+
+The goal is not to rediscover differentially expressed genes from a single dataset, but to test whether literature-curated POCD-related modules show coordinated dysregulation across multiple POCD/PND-related datasets.
 
 ---
 
