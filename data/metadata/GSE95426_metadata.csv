@@ -1,13 +1,13 @@
-sample_id,group,tissue,species,disease_context,platform,condition,role,notes
-GSM_UNKNOWN_01,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_02,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_03,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_04,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_05,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_06,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_07,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_08,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_09,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_10,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_11,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
-GSM_UNKNOWN_12,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
+sample_id,sample_title,group,tissue,species,gender,strain,age,disease_context,platform,condition,role,notes
+GSM2510565,Hippocampal C1,control,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,control,pilot_dataset,control_sample_1
+GSM2510566,Hippocampal C2,control,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,control,pilot_dataset,control_sample_2
+GSM2510567,Hippocampal C3,control,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,control,pilot_dataset,control_sample_3
+GSM2510568,Hippocampal C4,control,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,control,pilot_dataset,control_sample_4
+GSM2510569,Hippocampal C5,control,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,control,pilot_dataset,control_sample_5
+GSM2510570,Hippocampal C6,control,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,control,pilot_dataset,control_sample_6
+GSM2510571,Hippocampal T1,POCD,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,tibial_fracture_surgery_POCD_model,pilot_dataset,POCD_sample_1
+GSM2510572,Hippocampal T2,POCD,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,tibial_fracture_surgery_POCD_model,pilot_dataset,POCD_sample_2
+GSM2510573,Hippocampal T3,POCD,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,tibial_fracture_surgery_POCD_model,pilot_dataset,POCD_sample_3
+GSM2510574,Hippocampal T4,POCD,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,tibial_fracture_surgery_POCD_model,pilot_dataset,POCD_sample_4
+GSM2510575,Hippocampal T5,POCD,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,tibial_fracture_surgery_POCD_model,pilot_dataset,POCD_sample_5
+GSM2510576,Hippocampal T6,POCD,hippocampus,mouse,male,C57BL/6,12-14months,POCD,GPL22782,tibial_fracture_surgery_POCD_model,pilot_dataset,POCD_sample_6
