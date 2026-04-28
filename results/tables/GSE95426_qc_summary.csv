@@ -1,0 +1,13 @@
+metric,value
+raw_rows,97904
+raw_columns,13
+clean_rows,97904
+clean_columns,13
+sample_count,12
+missing_values,0
+duplicated_probe_ids,0
+expression_min,-7.490427202
+expression_max,9.755916351
+expression_mean,-2.034143801000324
+expression_median,-2.1507184645
+scale_interpretation,likely_log2_or_normalized_expression
