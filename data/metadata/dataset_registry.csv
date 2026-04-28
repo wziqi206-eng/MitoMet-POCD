@@ -1,0 +1,6 @@
+dataset_id,disease_context,tissue,species,platform,sample_size,groups,priority,use_case,download_status,notes
+GSE95426,POCD,hippocampus,mouse,microarray,unknown,control_vs_POCD,A,main_analysis,not_downloaded,First dataset to process
+GSE178995,PND,hippocampus,mouse,RNA-seq,unknown,sham_vs_surgery,A,mitochondrial_validation,not_downloaded,Use for mitochondrial and respiratory chain validation
+GSE115440,PND,hippocampus,mouse,microarray,unknown,surgery_treatment,B,inflammation_validation,not_downloaded,Use for NF-kB and inflammation validation
+GSE95070,POCD,hippocampus,mouse,miRNA_microarray,10,control_vs_POCD,B,regulatory_layer,not_downloaded,Optional miRNA regulatory analysis
+GSE161340,aging_cognitive_impairment,hippocampus,mouse,single_cell_RNAseq,unknown,young_vs_old,C,cell_type_reference,not_downloaded,Optional cell-type annotation
