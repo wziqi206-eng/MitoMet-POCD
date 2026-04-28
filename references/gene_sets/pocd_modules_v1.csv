@@ -1,0 +1,52 @@
+module,gene,evidence_source,notes
+NAD_SIRT1,NAMPT,NMN paper,NAD salvage pathway enzyme
+NAD_SIRT1,SIRT1,NMN paper,NAD-dependent antioxidant regulator
+NAD_SIRT1,NMNAT1,literature/module expansion,NAD biosynthesis
+NAD_SIRT1,NMNAT2,literature/module expansion,NAD biosynthesis
+NAD_SIRT1,NMNAT3,literature/module expansion,NAD biosynthesis
+NAD_SIRT1,PARP1,literature/module expansion,NAD-consuming enzyme
+NAD_SIRT1,CD38,literature/module expansion,NAD-consuming enzyme
+FAO,PPARA,Fenofibrate paper,Fatty acid oxidation regulator
+FAO,PPARGC1A,Fenofibrate paper,Mitochondrial biogenesis and FAO
+FAO,CPT1A,Fenofibrate paper,Fatty acid transport into mitochondria
+FAO,CPT1B,literature/module expansion,Fatty acid oxidation
+FAO,ACADL,literature/module expansion,Beta-oxidation
+FAO,ACADM,literature/module expansion,Beta-oxidation
+FAO,ACOX1,literature/module expansion,Peroxisomal FAO
+MITO_RESPIRATORY_CHAIN,NDUFS1,literature/module expansion,Complex I
+MITO_RESPIRATORY_CHAIN,NDUFB8,literature/module expansion,Complex I
+MITO_RESPIRATORY_CHAIN,SDHB,literature/module expansion,Complex II
+MITO_RESPIRATORY_CHAIN,UQCRC1,literature/module expansion,Complex III
+MITO_RESPIRATORY_CHAIN,COX4I1,literature/module expansion,Complex IV
+MITO_RESPIRATORY_CHAIN,ATP5F1A,literature/module expansion,ATP synthase
+OXIDATIVE_STRESS,SOD1,NMN/nanozyme mechanism,Antioxidant enzyme
+OXIDATIVE_STRESS,SOD2,NMN/nanozyme mechanism,Mitochondrial antioxidant enzyme
+OXIDATIVE_STRESS,CAT,nanozyme mechanism,Catalase-related antioxidant defense
+OXIDATIVE_STRESS,GPX1,literature/module expansion,Glutathione peroxidase
+OXIDATIVE_STRESS,GPX4,literature/module expansion,Lipid peroxidation defense
+OXIDATIVE_STRESS,NFE2L2,literature/module expansion,Nrf2 antioxidant response
+INFLAMMATION,RELA,Nanozyme paper,NF-kB pathway
+INFLAMMATION,NFKB1,Nanozyme paper,NF-kB pathway
+INFLAMMATION,MAPK1,Nanozyme paper,MAPK pathway
+INFLAMMATION,MAPK3,Nanozyme paper,MAPK pathway
+INFLAMMATION,MAPK14,Nanozyme paper,p38 MAPK
+INFLAMMATION,IL1B,Nanozyme paper,Pro-inflammatory cytokine
+INFLAMMATION,IL6,Nanozyme paper,Pro-inflammatory cytokine
+INFLAMMATION,TNF,Nanozyme paper,Pro-inflammatory cytokine
+INSULIN_SIGNALING,INSR,CREB-NR2B paper,Insulin receptor signaling
+INSULIN_SIGNALING,IRS1,CREB-NR2B paper,Insulin signaling adaptor
+INSULIN_SIGNALING,IRS2,CREB-NR2B paper,Insulin signaling adaptor
+INSULIN_SIGNALING,AKT1,literature/module expansion,Downstream insulin signaling
+INSULIN_SIGNALING,GSK3B,literature/module expansion,Cognition/metabolism signaling
+TGF_BETA,TGFB1,CREB-NR2B paper,TGF-beta signaling
+TGF_BETA,TGFBR1,CREB-NR2B paper,TGF-beta receptor
+TGF_BETA,TGFBR2,CREB-NR2B paper,TGF-beta receptor
+TGF_BETA,SMAD2,CREB-NR2B paper,TGF-beta downstream signaling
+TGF_BETA,SMAD3,CREB-NR2B paper,TGF-beta downstream signaling
+TGF_BETA,SMAD4,CREB-NR2B paper,TGF-beta downstream signaling
+CREB_NR2B_SYNAPSE,CREB1,CREB-NR2B paper,Central transcription factor
+CREB_NR2B_SYNAPSE,GRIN2B,CREB-NR2B paper,NR2B synaptic plasticity marker
+CREB_NR2B_SYNAPSE,BDNF,NMN/CREB-related mechanism,Neurotrophic factor
+CREB_NR2B_SYNAPSE,CAMK2A,literature/module expansion,Synaptic plasticity
+CREB_NR2B_SYNAPSE,ARC,literature/module expansion,Activity-regulated synaptic gene
+CREB_NR2B_SYNAPSE,FOS,literature/module expansion,Immediate early gene
