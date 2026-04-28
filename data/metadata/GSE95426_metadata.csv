@@ -1,0 +1,13 @@
+sample_id,group,tissue,species,disease_context,platform,condition,role,notes
+GSM_UNKNOWN_01,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_02,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_03,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_04,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_05,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_06,control,hippocampus,mouse,POCD,GPL22782,control,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_07,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_08,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_09,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_10,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_11,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
+GSM_UNKNOWN_12,POCD,hippocampus,mouse,POCD,GPL22782,tibial_fracture_surgery,pilot_dataset,replace_with_real_GSM_id
