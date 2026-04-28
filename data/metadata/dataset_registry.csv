@@ -1,5 +1,5 @@
 dataset_id,disease_context,tissue,species,platform,sample_size,groups,priority,use_case,download_status,notes
-GSE95426,POCD,hippocampus,mouse,microarray,unknown,control_vs_POCD,A,main_analysis,not_downloaded,First dataset to process
+GSE95426,POCD,hippocampus,mouse,microarray,12,control_vs_POCD,A,pilot_dataset,downloaded,Series matrix downloaded; metadata template created; used for workflow testing and module-level analysis
 GSE178995,PND,hippocampus,mouse,RNA-seq,unknown,sham_vs_surgery,A,mitochondrial_validation,not_downloaded,Use for mitochondrial and respiratory chain validation
 GSE115440,PND,hippocampus,mouse,microarray,unknown,surgery_treatment,B,inflammation_validation,not_downloaded,Use for NF-kB and inflammation validation
 GSE95070,POCD,hippocampus,mouse,miRNA_microarray,10,control_vs_POCD,B,regulatory_layer,not_downloaded,Optional miRNA regulatory analysis
