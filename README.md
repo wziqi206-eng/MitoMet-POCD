@@ -2,6 +2,8 @@
 
 A computational biology project integrating mitochondrial dysfunction, metabolic disruption, oxidative inflammation, and synaptic plasticity in postoperative cognitive dysfunction.
 
+---
+
 ## 1. Project Overview
 
 Postoperative cognitive dysfunction (POCD) is a clinically important neurocognitive complication following anesthesia and surgery. Current studies suggest that POCD is not driven by a single pathway, but may involve interacting abnormalities in mitochondrial function, oxidative stress, metabolic regulation, inflammatory signaling, and synaptic plasticity.
@@ -39,17 +41,29 @@ Instead of treating these pathways as independent mechanisms, this project explo
 
 This project is based on four major mechanistic directions:
 
-1. **NAD+ / SIRT1 / oxidative stress**  
-   NMN pretreatment has been reported to improve isoflurane-induced cognitive impairment by restoring NAD+ related signaling and reducing oxidative stress.
+### 4.1 NAD+ / SIRT1 / Oxidative Stress
 
-2. **PPARα / fatty acid oxidation**  
-   Fenofibrate, a PPARα agonist, has been reported to protect against isoflurane-induced cognitive dysfunction by enhancing fatty acid oxidation.
+NMN pretreatment has been reported to improve isoflurane-induced cognitive impairment by restoring NAD+ related signaling and reducing oxidative stress.
 
-3. **Insulin / TGF-beta / CREB-NR2B signaling**  
-   Insulin and TGF-beta signaling may converge on CREB, which regulates NR2B-related synaptic plasticity in POCD.
+This supports the inclusion of the **NAD_SIRT1** and **OXIDATIVE_STRESS** modules.
 
-4. **Mitochondrial ROS / inflammation**  
-   Mitochondrial oxidative stress and inflammatory signaling, including MAPK and NF-kB pathways, may represent shared neural injury mechanisms.
+### 4.2 PPARα / Fatty Acid Oxidation
+
+Fenofibrate, a PPARα agonist, has been reported to protect against isoflurane-induced cognitive dysfunction by enhancing fatty acid oxidation.
+
+This supports the inclusion of the **FAO** module.
+
+### 4.3 Insulin / TGF-beta / CREB-NR2B Signaling
+
+Insulin and TGF-beta signaling may converge on CREB, which regulates NR2B-related synaptic plasticity in POCD.
+
+This supports the inclusion of the **INSULIN_SIGNALING**, **TGF_BETA**, and **CREB_NR2B_SYNAPSE** modules.
+
+### 4.4 Mitochondrial ROS / Inflammation
+
+Mitochondrial oxidative stress and inflammatory signaling, including MAPK and NF-kB pathways, may represent shared neural injury mechanisms.
+
+This supports the inclusion of the **MITO_RESPIRATORY_CHAIN**, **OXIDATIVE_STRESS**, and **INFLAMMATION** modules.
 
 ---
 
@@ -70,45 +84,43 @@ The first version of this project includes eight curated gene modules:
 
 The curated module table is available at:
 
-```text
-references/gene_sets/pocd_modules_v1.csv
+`references/gene_sets/pocd_modules_v1.csv`
+
 ---
 
 ## 6. Project Workflow
 
-```text
-Literature curation
-↓
-Gene module construction
-↓
-Public dataset collection
-↓
-Expression matrix preprocessing
-↓
-Differential expression analysis
-↓
-Pathway/module scoring
-↓
-Network and hub gene analysis
-↓
-Interpretable machine learning
-↓
-Technical report and application portfolio
-MitoMet-POCD/
-├── README.md
-├── data/
-│   ├── metadata/
-│   │   └── dataset_registry.csv
-│   ├── processed/
-│   └── raw/
-├── notebooks/
-├── references/
-│   ├── literature_matrix.csv
-│   └── gene_sets/
-│       └── pocd_modules_v1.csv
-├── report/
-├── results/
-└── src/
+The project will be developed through the following workflow:
+
+1. Literature curation
+2. Gene module construction
+3. Public dataset collection
+4. Expression matrix preprocessing
+5. Differential expression analysis
+6. Pathway/module scoring
+7. Network and hub gene analysis
+8. Interpretable machine learning
+9. Technical report and application portfolio
+
+---
+
+## 7. Current Repository Structure
+
+- `README.md`
+- `data/`
+  - `metadata/`
+    - `dataset_registry.csv`
+  - `processed/`
+  - `raw/`
+- `notebooks/`
+- `references/`
+  - `literature_matrix.csv`
+  - `gene_sets/`
+    - `pocd_modules_v1.csv`
+- `report/`
+- `results/`
+- `src/`
+
 ---
 
 ## 8. Current Core Files
