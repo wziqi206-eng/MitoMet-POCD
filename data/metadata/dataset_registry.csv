@@ -1,6 +1,7 @@
-dataset_id,disease_context,tissue,species,platform,sample_size,groups,priority,use_case,download_status,notes
-GSE95426,POCD,hippocampus,mouse,microarray,12,control_vs_POCD,A,pilot_dataset,metadata_verified,Series matrix downloaded; sample metadata verified with GSM2510565-GSM2510576; C1-C6 control and T1-T6 POCD model
-GSE178995,PND,hippocampus,mouse,RNA-seq,unknown,sham_vs_surgery,A,mitochondrial_validation,not_downloaded,Use for mitochondrial and respiratory chain validation
-GSE115440,PND,hippocampus,mouse,microarray,unknown,surgery_treatment,B,inflammation_validation,not_downloaded,Use for NF-kB and inflammation validation
-GSE95070,POCD,hippocampus,mouse,miRNA_microarray,10,control_vs_POCD,B,regulatory_layer,not_downloaded,Optional miRNA regulatory analysis
-GSE161340,aging_cognitive_impairment,hippocampus,mouse,single_cell_RNAseq,unknown,young_vs_old,C,cell_type_reference,not_downloaded,Optional cell-type annotation
+dataset_id,disease_context,tissue,species,platform,sample_size,groups,priority,use_case,download_status,notes,accession,dataset_name,model,data_type,n_control,n_experimental,time_point,evidence_level,confidence_score,status,main_use,main_limitation,next_action
+GSE95426,POCD,hippocampus,mouse,microarray,12,control_vs_POCD,A,pilot_dataset,metadata_verified,Series matrix downloaded; sample metadata verified with GSM2510565-GSM2510576; C1-C6 control and T1-T6 POCD model,,,,,,,,,,,,,
+GSE178995,PND,hippocampus,mouse,RNA-seq,unknown,sham_vs_surgery,A,mitochondrial_validation,not_downloaded,Use for mitochondrial and respiratory chain validation,,,,,,,,,,,,,
+GSE115440,PND,hippocampus,mouse,microarray,unknown,surgery_treatment,B,inflammation_validation,not_downloaded,Use for NF-kB and inflammation validation,,,,,,,,,,,,,
+GSE95070,POCD,hippocampus,mouse,miRNA_microarray,10,control_vs_POCD,B,regulatory_layer,not_downloaded,Optional miRNA regulatory analysis,,,,,,,,,,,,,
+GSE161340,aging_cognitive_impairment,hippocampus,mouse,single_cell_RNAseq,unknown,young_vs_old,C,cell_type_reference,not_downloaded,Optional cell-type annotation,,,,,,,,,,,,,
+,,hippocampus,Mus_musculus,GPL11533_Affymetrix_Mouse_Gene_1.1_ST_Array,,,,,,,GSE115440,POCD_hippocampus_validation_Mkrtchian2018,orthopedic_surgery_tibia_fracture,microarray_mRNA,3,3,72h_after_surgery,B,5,metadata_verified,Tier2_priority_validation_Surgery_vs_Control_module_scoring,small_n3v3_plus_treatment_group_not_used_in_primary_validation,run_RMA_limma_GSVA_module_scoring_compare_with_GSE95426
