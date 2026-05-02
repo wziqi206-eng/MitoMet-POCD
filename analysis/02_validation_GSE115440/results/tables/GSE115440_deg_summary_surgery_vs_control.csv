@@ -1,0 +1,2 @@
+"contrast","level","n_control","n_surgery","n_probes_tested","threshold_logFC","raw_p_lt_0.05_up","raw_p_lt_0.05_down","raw_p_lt_0.05_total","adj_p_lt_0.05_up","adj_p_lt_0.05_down","adj_p_lt_0.05_total","adj_p_lt_0.10_up","adj_p_lt_0.10_down","adj_p_lt_0.10_total","note"
+"Surgery_vs_Control","probe",3,3,35556,0.584962500721156,15,166,181,0,0,0,0,0,0,"n=3 vs 3; PROBE-LEVEL; secondary supporting evidence only."
