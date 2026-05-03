@@ -1,0 +1,13 @@
+dataset,geo_accession,sample_id,sample_title,group,condition,tissue,species,sex,age,model,platform,include_primary_analysis,notes
+GSE95426,GSM2510565,GSM2510565,Hippocampal C1,Control,control,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510566,GSM2510566,Hippocampal C2,Control,control,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510567,GSM2510567,Hippocampal C3,Control,control,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510568,GSM2510568,Hippocampal C4,Control,control,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510569,GSM2510569,Hippocampal C5,Control,control,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510570,GSM2510570,Hippocampal C6,Control,control,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510571,GSM2510571,Hippocampal T1,POCD,surgery,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510572,GSM2510572,Hippocampal T2,POCD,surgery,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510573,GSM2510573,Hippocampal T3,POCD,surgery,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510574,GSM2510574,Hippocampal T4,POCD,surgery,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510575,GSM2510575,Hippocampal T5,POCD,surgery,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
+GSE95426,GSM2510576,GSM2510576,Hippocampal T6,POCD,surgery,hippocampus,Mus musculus,male,12-14 months,tibial fracture POCD,Arraystar mouse lncRNA+mRNA microarray,yes,metadata_frozen_after_local_expression_matrix_audit
