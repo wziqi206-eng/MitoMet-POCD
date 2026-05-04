@@ -1,0 +1,24 @@
+[2026-05-04 13:21:44] Checking input paths
+[2026-05-04 13:21:44] Reading inputs
+[2026-05-04 13:21:44] Validating frozen manifest
+[2026-05-04 13:21:44] Preparing gene-level expression matrix
+[2026-05-04 13:21:44] Expression matrix genes: 19102
+[2026-05-04 13:21:44] Expression matrix samples: 12
+[2026-05-04 13:21:44] Control samples: GSM2510565, GSM2510566, GSM2510567, GSM2510568, GSM2510569, GSM2510570
+[2026-05-04 13:21:44] POCD samples: GSM2510571, GSM2510572, GSM2510573, GSM2510574, GSM2510575, GSM2510576
+[2026-05-04 13:21:44] Computing per-gene z-scores across samples
+[2026-05-04 13:21:44] Zero-variance genes assigned z-score 0: 0
+[2026-05-04 13:21:44] Computing module scores
+[2026-05-04 13:21:44] Writing tables
+[2026-05-04 13:21:44] Computing random-control sensitivity QC
+[2026-05-04 13:21:44] Random-control sensitivity: abs(d) >= 0.5 in 20/50; abs(d) >= 0.8 in 2/50
+[2026-05-04 13:21:44] Writing figures with base R
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+[2026-05-04 13:21:45] Completed Script 11
+[2026-05-04 13:21:45] Key output: analysis/01_anchor_GSE95426/results/tables/GSE95426_module_pocd_vs_control_results.csv
+[2026-05-04 13:21:45] Interpretation remains conservative: module-level only; p-values descriptive only.
