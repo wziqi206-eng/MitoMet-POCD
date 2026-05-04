@@ -69,6 +69,18 @@ This report uses only the following project outputs:
 
 Older planning memos, earlier biological narratives, and external interpretation notes are not used as data sources for this report. They may explain project history, but they do not override the Script 11, 11.5, 05, and 06 outputs.
 
+### Reproducibility note
+
+The report is designed to be traceable from committed repository outputs. Each major interpretation is tied to a generated table or text output from Script 11, Script 11.5, Script 05, or Script 06. The repository should retain script files, result tables, run logs, and session information where available so that an outside reader can audit how each conclusion was produced.
+
+Key reproducibility expectations before application-facing release:
+
+- Script 11, Script 11.5, Script 05, and Script 06 should remain committed.
+- Generated CSV and TXT outputs used by this report should remain committed.
+- Random seeds used in sensitivity steps should remain visible in scripts.
+- Package/session information should remain available through run logs or output text.
+- README should later summarize this report, not replace it.
+
 **Interpretation guardrail:** This section makes the report output-driven rather than memo-driven.
 
 ---
