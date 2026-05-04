@@ -131,6 +131,13 @@ for (d in module_search_dirs) {
   }
 }
 candidate_files <- unique(candidate_files)
+
+preferred_module_file <- file.path(project_root, "data", "modules", "stage_B5_target_modules.csv")
+if (file.exists(preferred_module_file)) {
+  candidate_files <- c(preferred_module_file, setdiff(candidate_files, preferred_module_file))
+  log_msg("Preferred module file found and prioritized: ", preferred_module_file)
+}
+
 if (length(candidate_files) == 0) {
   stop(
     paste0(
@@ -165,6 +172,17 @@ if (is.null(best_modules)) {
 
 names(best_modules) <- toupper(names(best_modules))
 log_msg("Selected module file: ", best_file, " (required modules matched: ", best_match, "/", length(required_modules), ")")
+
+if (best_match == 0) {
+  stop(
+    paste0(
+      "Stage B.5 cannot run because standard target module gene lists are not present. ",
+      "Provide an authoritative module file at ", preferred_module_file,
+      " with columns module,gene_symbol,module_class for required Hallmark/KEGG/Reactome/Microglia modules."
+    ),
+    call. = FALSE
+  )
+}
 
 missing_required <- setdiff(required_modules, names(best_modules))
 if (length(missing_required) > 0) {
