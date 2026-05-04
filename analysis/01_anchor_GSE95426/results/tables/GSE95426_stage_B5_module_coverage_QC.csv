@@ -1,0 +1,8 @@
+"module","module_class","source_gene_count","recovered_gene_count","missing_gene_count","recovery_percent","status","interpretation_allowed","notes"
+"HALLMARK_INFLAMMATORY_RESPONSE","inflammation",201,186,15,92.54,"PASS_STRONG","YES",""
+"HALLMARK_TNFA_SIGNALING_VIA_NFKB","inflammation",199,187,12,93.97,"PASS_STRONG","YES",""
+"MICROGLIA_ACTIVATION_CUSTOM","inflammation",23,22,1,95.65,"PASS_STRONG","YES",""
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","mitochondrial",199,181,18,90.95,"PASS_STRONG","YES",""
+"KEGG_OXIDATIVE_PHOSPHORYLATION","mitochondrial",128,113,15,88.28,"PASS_STRONG","YES",""
+"REACTOME_RESPIRATORY_ELECTRON_TRANSPORT","mitochondrial",157,139,18,88.54,"PASS_STRONG","YES",""
+"RANDOM_CONTROL_200","negative_control",200,200,0,100,"PASS_STRONG","YES","Coverage reference only; no group separation used."

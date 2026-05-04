@@ -1,0 +1,7 @@
+2026-05-04 04:18:32 | Preferred module file found and prioritized: /workspaces/MitoMet-POCD/data/modules/stage_B5_target_modules.csv
+2026-05-04 04:18:32 | Reading module file: /workspaces/MitoMet-POCD/data/modules/stage_B5_target_modules.csv
+2026-05-04 04:18:32 | Selected module file: /workspaces/MitoMet-POCD/data/modules/stage_B5_target_modules.csv (required modules matched: 6/6)
+2026-05-04 04:18:32 | Reading expression matrix: /workspaces/MitoMet-POCD/data/processed/GSE95426_expression_matrix_gene_level.csv
+2026-05-04 04:18:32 | Gene universe size: 19102
+2026-05-04 04:18:34 | Coverage QC completed.
+2026-05-04 04:18:34 | Final verdict: PASS_WITH_CAVEAT
