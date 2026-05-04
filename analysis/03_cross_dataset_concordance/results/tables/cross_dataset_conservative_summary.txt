@@ -1,0 +1,35 @@
+Cross-dataset module concordance: conservative summary
+=======================================================
+Generated: 2026-05-04 14:11:57 UTC
+
+Scope:
+- Anchor: GSE95426, POCD vs Control.
+- Validation: GSE115440, Surgery vs Control.
+- Negative controls and RANDOM_CONTROL_200 excluded from biological concordance.
+
+Key findings:
+1. GSE115440 provides the clearer inflammatory activation evidence.
+   Inflammatory modules up in GSE115440: 3
+   Inflammatory modules up in GSE95426: 0
+   Therefore, GSE95426 does not replicate inflammatory activation.
+
+2. GSE95426 shows OXPHOS / respiratory electron transport down-shift,
+   but Script 11.5 random-control QC indicates broad downward bias.
+   Mitochondrial modules down in GSE95426: 3
+   Mitochondrial modules flagged caveated_hypothesis_generating: 3
+   Therefore, mitochondrial down-shift is hypothesis-generating PASS_WITH_CAVEAT.
+
+3. Overall cross-dataset concordance is partial, with informative discordance
+   and dataset-specific caveats.
+
+4. This supports a conservative technical-report narrative, not a preprint-level
+   clean replicated mechanism claim.
+
+Hard rules respected:
+- No raw expression merged across datasets.
+- DEG not used as primary evidence.
+- Descriptive p-values not used as primary evidence.
+- No causal claims.
+- No AI/ML claims.
+- GSE174412 not touched.
+- Surgery+Maresin1 not used as primary validation.
