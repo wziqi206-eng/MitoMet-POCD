@@ -1,5 +1,8 @@
 #!/usr/bin/env Rscript
 
+# Stage B.5 target module generator
+# Output: data/modules/stage_B5_target_modules.csv
+
 required_pkgs <- c("msigdbr", "dplyr", "readr", "stringr")
 missing_pkgs <- required_pkgs[!vapply(required_pkgs, requireNamespace, logical(1), quietly = TRUE)]
 
