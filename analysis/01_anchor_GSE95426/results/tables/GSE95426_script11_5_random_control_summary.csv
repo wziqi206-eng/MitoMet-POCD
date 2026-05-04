@@ -1,0 +1,2 @@
+n_random_modules,mean_cohens_d,median_cohens_d,sd_cohens_d,min_cohens_d,max_cohens_d,q10_cohens_d,q90_cohens_d,n_down_in_pocd,frac_down_in_pocd,n_up_in_pocd,frac_up_in_pocd,n_near_null,frac_near_null,n_strong,n_moderate,n_weak,n_null_effect
+50,-0.4703829139372951,-0.4434434492173225,0.19578770955349914,-0.93735135200699,-0.0753160877026839,-0.7301847709298395,-0.21756221320913274,45,0.9,0,0,5,0.1,2,18,25,5

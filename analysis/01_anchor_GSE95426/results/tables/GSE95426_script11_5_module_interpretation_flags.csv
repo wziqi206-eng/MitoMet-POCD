@@ -1,0 +1,7 @@
+module,module_class,cohens_d,abs_cohens_d,direction,empirical_abs_percentile_vs_random,same_direction_extremeness_vs_random,stronger_than_random_median,stronger_than_random_90th_percentile,stronger_than_random_max,expected_direction,direction_matches_expected,random_controls_directionally_biased,random_bias_direction,interpretation_flag
+HALLMARK_INFLAMMATORY_RESPONSE,inflammatory,-0.775525195024663,0.775525195024663,down_in_pocd,0.92,0.92,TRUE,TRUE,FALSE,up_in_pocd,FALSE,TRUE,down_in_pocd,not_replicated_or_opposite_direction
+HALLMARK_OXIDATIVE_PHOSPHORYLATION,mitochondrial,-1.01098860008031,1.01098860008031,down_in_pocd,1,1,TRUE,TRUE,TRUE,down_in_pocd,TRUE,TRUE,down_in_pocd,hypothesis_generating_only
+HALLMARK_TNFA_SIGNALING_VIA_NFKB,inflammatory,-0.775304496006034,0.775304496006034,down_in_pocd,0.92,0.92,TRUE,TRUE,FALSE,up_in_pocd,FALSE,TRUE,down_in_pocd,not_replicated_or_opposite_direction
+KEGG_OXIDATIVE_PHOSPHORYLATION,mitochondrial,-0.998859691129081,0.998859691129081,down_in_pocd,1,1,TRUE,TRUE,TRUE,down_in_pocd,TRUE,TRUE,down_in_pocd,hypothesis_generating_only
+MICROGLIA_ACTIVATION_CUSTOM,inflammatory,-0.126757784472296,0.126757784472296,near_null,0.02,0.02,FALSE,FALSE,FALSE,up_in_pocd,FALSE,TRUE,down_in_pocd,not_replicated_or_opposite_direction
+REACTOME_RESPIRATORY_ELECTRON_TRANSPORT,mitochondrial,-1.06428181880964,1.06428181880964,down_in_pocd,1,1,TRUE,TRUE,TRUE,down_in_pocd,TRUE,TRUE,down_in_pocd,hypothesis_generating_only
