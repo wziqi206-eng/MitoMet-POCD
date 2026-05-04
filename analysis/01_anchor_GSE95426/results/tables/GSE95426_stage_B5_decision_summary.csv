@@ -1,0 +1,2 @@
+"final_verdict","key_inflammation_pass_strong","n_target_modules_total","n_modules_ge_70","n_modules_lt_60","n_mito_modules_lt_70","negative_control_status","next_action"
+"PASS_WITH_CAVEAT",TRUE,6,6,0,0,"PASS_STRONG","Proceed with modules >=70% only, document exclusions."
