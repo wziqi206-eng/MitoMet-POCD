@@ -1,0 +1,2 @@
+"analysis","input_file","module_n","spearman_rho","bootstrap_n","bootstrap_valid_n","spearman_bootstrap_ci_low","spearman_bootstrap_ci_high","direction_agree_n","direction_agree_fraction","sign_test_p_value","interpretation"
+"rank_concordance_sign_test","analysis/03_cross_dataset_concordance/results/tables/cross_dataset_module_concordance_table.csv",6,0.885714285714286,1000,1000,0.2,1,1,0.166666666666667,0.21875,"descriptive_partial_concordance_only"

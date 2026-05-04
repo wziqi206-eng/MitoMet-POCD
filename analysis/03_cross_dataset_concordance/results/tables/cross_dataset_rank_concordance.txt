@@ -1,0 +1,60 @@
+Script 06: Rank-based concordance and sign test
+================================================
+
+Input file: analysis/03_cross_dataset_concordance/results/tables/cross_dataset_module_concordance_table.csv
+GSE95426 effect-size column: g95_disease_cohens_d
+GSE115440 effect-size column: g115_disease_cohens_d
+Biological target modules used: 6
+
+Modules:
+  - HALLMARK_INFLAMMATORY_RESPONSE
+  - HALLMARK_TNFA_SIGNALING_VIA_NFKB
+  - MICROGLIA_ACTIVATION_CUSTOM
+  - HALLMARK_OXIDATIVE_PHOSPHORYLATION
+  - KEGG_OXIDATIVE_PHOSPHORYLATION
+  - REACTOME_RESPIRATORY_ELECTRON_TRANSPORT
+
+Effect sizes:
+  - HALLMARK_INFLAMMATORY_RESPONSE: GSE95426 d = -0.7755; GSE115440 d = 1.0057; direction_agree = FALSE
+  - HALLMARK_TNFA_SIGNALING_VIA_NFKB: GSE95426 d = -0.7753; GSE115440 d = 1.6581; direction_agree = FALSE
+  - MICROGLIA_ACTIVATION_CUSTOM: GSE95426 d = -0.1268; GSE115440 d = 1.4459; direction_agree = FALSE
+  - HALLMARK_OXIDATIVE_PHOSPHORYLATION: GSE95426 d = -1.011; GSE115440 d = 0.4252; direction_agree = FALSE
+  - KEGG_OXIDATIVE_PHOSPHORYLATION: GSE95426 d = -0.9989; GSE115440 d = 0.1408; direction_agree = FALSE
+  - REACTOME_RESPIRATORY_ELECTRON_TRANSPORT: GSE95426 d = -1.0643; GSE115440 d = -0.0199; direction_agree = TRUE
+
+Spearman rho: 0.8857
+Bootstrap 95% CI: [0.2, 1]
+Bootstrap valid replicates: 1000 / 1000
+
+Direction agreement: 1 / 6
+Binomial sign test p-value: 0.2188
+
+Conservative interpretation:
+  This analysis is descriptive. It tests whether the six predefined biological
+  modules show rank-level and direction-level concordance across the two
+  independently processed datasets. It does not support raw-expression merging,
+  mechanism discovery, AI/ML claims, or clean cross-dataset validation language.
+
+sessionInfo():
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 24.04.4 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3
