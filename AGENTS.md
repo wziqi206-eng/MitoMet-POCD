@@ -1,65 +1,116 @@
-# AGENTS.md — MitoMet-POCD Repository Rules
+cat > AGENTS.md << 'EOF'
+# AGENTS.md — MitoMet-POCD / NeuroMitoMap
 
-This repository is a computational biology Bridge Project for AI+Bio / Computational Biology PhD applications.
+## Project Identity
 
-## Locked project scope
+This repository is for:
 
-The project is currently an application-ready GitHub technical report / Bridge Project, not a formal preprint and not a Disease Mechanism Engine.
+**MitoMet-POCD / NeuroMitoMap**
 
-The main biological narrative is inflammation-first:
-- Neuroinflammation, microglial activation, TNF-alpha/NF-kB, and inflammatory response modules are the primary reproducible axis.
-- Mitochondrial/OXPHOS transcriptional modules are weak, mixed, context-dependent, and hypothesis-generating unless proven otherwise by strict module-level concordance.
+Project positioning:
 
-## Dataset rules
+A conservative module-level public-data audit of small-n mouse hippocampal POCD/PND transcriptomic datasets.
 
-GSE95426:
-- Tier-1 hippocampal POCD anchor.
-- Use only as module-level evidence with annotation-rescue caveats.
-- Do not treat as a clean single-gene discovery dataset.
+This project is NOT:
+- a mechanism proof project
+- a disease mechanism engine
+- an AI/ML prediction project
+- a causal inference project
+- a biomarker discovery paper
+- a clinical translation claim
 
-GSE115440:
-- Tier-2 priority validation.
-- Primary comparison is Surgery vs Control only.
-- Surgery+Maresin1 is auxiliary rescue evidence only.
+This project DOES emphasize:
+- reproducibility
+- conservative interpretation
+- module-level analysis
+- QC and annotation caveats
+- cross-dataset comparison
+- transparent negative-result handling
+- application-ready documentation
 
-GSE174412:
-- Paused / conflicting_unverified.
-- Do not use as hippocampal validation unless sample-level GEO tissue metadata is manually reconciled.
+## Current Stage
 
-## Forbidden actions
+The project is in:
 
-Do not:
-- Merge raw expression matrices across datasets.
-- Treat DEG as primary evidence.
-- Use Maresin1 as primary validation.
-- Use GSE174412 as validation.
-- Claim causal mechanism from small-n transcriptomics.
-- Claim AI/ML prediction without a real held-out ML component.
-- Make preprint-level claims without explicit user approval.
-- Add raw data to git.
-- Pop, drop, or modify git stash.
-- Commit or push without user approval.
-- Rewrite project history.
-- Perform broad refactors unrelated to the task.
+**Application Packaging Phase**
 
-## Coding rules
+Scientific exploration should be treated as mostly frozen.
 
-- Prefer small, auditable scripts.
-- Always check input file existence.
-- Always write outputs to task-specific results/tables and results/figures folders.
-- Always print sessionInfo() for R scripts when appropriate.
-- Do not silently invent missing files or columns.
-- If ambiguity exists, stop and report candidate files.
+Do not expand scope.
+Do not add exploratory ML.
+Do not introduce new biological claims.
+Do not reinterpret existing results unless explicitly asked.
 
-## Interpretation rules
+## Non-Negotiable Scientific Boundaries
 
-Allowed:
-- Report module-level directionality.
-- Report effect sizes and concordance.
-- Report negative controls transparently.
-- Use conservative language.
+Never write or imply:
+- proof of mechanism
+- causal pathway
+- therapeutic target
+- robust biomarker
+- clinical relevance
+- strong statistical validation
+- high-confidence disease mechanism
+- AI-driven biological discovery
 
-Forbidden:
-- Overclaim mitochondrial/OXPHOS reproducibility.
-- Hide negative controls.
-- Turn weak/mixed results into mechanism claims.
+Avoid wording such as:
+- demonstrates mechanism
+- reveals causal pathway
+- identifies therapeutic target
+- strong inflammatory activation
+- robust cross-dataset validation
+- disease-driving axis
+- predictive AI system
+
+Preferred wording:
+- conservative audit
+- module-level comparison
+- descriptive analysis
+- partial rank-level concordance
+- weak or limited directional concordance
+- hypothesis-generating only
+- public-data reproducibility project
+- small-n caveat
+- annotation-caveat handling
+- not suitable for strong mechanistic inference
+
+## Allowed Work
+
+You may:
+- inspect repository structure
+- inspect file contents
+- create or edit markdown documentation
+- improve README files
+- generate conservative summaries
+- check consistency across docs
+- grep for risky overclaim language
+- create small helper scripts for consistency/QC checks
+- validate paths and file existence
+- explain errors
+- propose minimal fixes
+- improve logging and comments
+- prepare reviewable diffs
+
+## Disallowed Work
+
+You must not:
+- fabricate results
+- fabricate statistics
+- fabricate citations
+- fabricate GEO metadata
+- fabricate PMIDs
+- invent biological interpretation
+- silently strengthen claims
+- introduce AI/ML framing
+- overwrite raw data
+- delete files
+- rename major directories
+- commit or push unless explicitly instructed
+
+## Mandatory Preflight
+
+Before editing files, run:
+
+```bash
+git status --short
+git log --oneline -5
