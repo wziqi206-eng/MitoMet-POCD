@@ -48,3 +48,25 @@ NeuroMitoMap is packaged as a conservative, reproducibility-oriented module-leve
 - [ ] Ensure cross-dataset comparison statements remain descriptive and non-causal.
 - [ ] Prepare reviewer-facing one-page summary using this wording baseline.
 - [ ] Final pass for banned overclaim phrases before external submission use.
+
+## 11. PI Outreach Paragraph Template
+I am developing MitoMet-POCD / NeuroMitoMap as a conservative, reproducibility-focused public transcriptomics audit that compares two small-n mouse hippocampal POCD/PND-related datasets at the module level. The work emphasizes annotation-caveat handling, random-control sensitivity QC, and transparent reporting when cross-dataset signals are contradictory. I frame the results as descriptive only, with weak directional concordance and partial rank-level concordance where applicable, and with explicit small-n uncertainty boundaries.
+
+## 12. README Positioning Sentence
+NeuroMitoMap is a conservative module-level public-data transcriptomics audit designed for reproducible cross-dataset comparison under explicit small-n, annotation, and uncertainty constraints.
+
+## 13. Safe Framing
+- conservative module-level public-data audit
+- reproducibility-focused descriptive analysis
+- transparent handling of contradictory evidence
+- random-control sensitivity QC for boundary checking
+- weak directional concordance where applicable
+- partial rank-level concordance where applicable
+- hypothesis-generating only under small-n caveats
+
+## 14. Unsafe Framing
+Do not use positive-claim language such as:
+- mechanism proof or causal pathway claims
+- therapeutic target, biomarker, or clinical translation claims
+- robust validation, disease-driving axis, or high-confidence biological discovery claims
+- AI-driven or machine-learning biological discovery framing
