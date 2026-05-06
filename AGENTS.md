@@ -1,4 +1,3 @@
-cat > AGENTS.md << 'EOF'
 # AGENTS.md — MitoMet-POCD / NeuroMitoMap
 
 ## Project Identity
@@ -26,13 +25,13 @@ This project DOES emphasize:
 - QC and annotation caveats
 - cross-dataset comparison
 - transparent negative-result handling
-- application-ready documentation
+- documentation
 
 ## Current Stage
 
 The project is in:
 
-**Application Packaging Phase**
+**Documentation Preparation Phase**
 
 Scientific exploration should be treated as mostly frozen.
 

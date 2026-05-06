@@ -2,7 +2,7 @@
 
 A conservative module-level audit of public POCD/PND-related mouse hippocampal transcriptomic datasets.
 
-This repository documents an application-facing computational biology project focused on reproducible dataset auditing, annotation-caveat handling, predefined module scoring, random-control sensitivity QC, and transparent cross-dataset comparison.
+This repository documents a conservative computational biology project focused on reproducible dataset auditing, annotation-caveat handling, predefined module scoring, random-control sensitivity QC, and transparent cross-dataset comparison.
 
 The source-of-truth report is:
 
@@ -12,7 +12,7 @@ The source-of-truth report is:
 
 ## 1. Project status
 
-Current status: **Application packaging**
+Current status: **Documentation preparation**
 
 Completed evidence chain:
 
@@ -222,9 +222,9 @@ The strongest value of this project is technical:
 
 ---
 
-## 12. Application-facing value
+## 12. Project value
 
-This project is intended as a GitHub portfolio artifact for computational biology, biomedical informatics, and neuroinformatics PhD applications.
+This project is intended as a public, reproducible repository artifact for computational biology, biomedical informatics, and neuroinformatics documentation use.
 
 It demonstrates:
 
@@ -236,3 +236,10 @@ It demonstrates:
 - conservative cross-dataset comparison
 - transparent reporting when the original biological expectation is contradicted by data
 
+---
+
+## Author / Contact
+
+Prepared by the repository maintainer.
+
+For questions or reproducibility issues, please use the GitHub repository issue tracker or contact the maintainer through the GitHub profile associated with this repository.

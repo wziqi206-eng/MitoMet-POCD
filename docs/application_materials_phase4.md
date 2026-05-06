@@ -1,4 +1,4 @@
-# Application Materials — Phase 4 (Application Packaging)
+# Application Materials — Phase 4 (Draft)
 
 ## 1. Final Project Title
 **MitoMet-POCD / NeuroMitoMap: A Conservative Module-Level Public-Data Audit of Two Small-n Mouse Hippocampal POCD/PND-Related Transcriptomic Datasets**
@@ -10,13 +10,13 @@
 MitoMet-POCD / NeuroMitoMap is a reproducibility-focused, conservative module-level public-data audit comparing two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets with explicit annotation-caveat handling, random-control sensitivity QC, and cautious cross-dataset interpretation.
 
 ## 4. CV Bullet
-Built and packaged **MitoMet-POCD / NeuroMitoMap**, a reproducible and conservative module-level audit workflow for two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets, with annotation-caveat documentation, random-control sensitivity QC, and transparent cross-dataset comparison boundaries.
+Built **MitoMet-POCD / NeuroMitoMap**, a reproducible and conservative module-level audit workflow for two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets, with annotation-caveat documentation, random-control sensitivity QC, and transparent cross-dataset comparison boundaries.
 
 ## 5. SOP Project Description
-MitoMet-POCD / NeuroMitoMap is a public-data reproducibility project centered on conservative, module-level transcriptomic comparison in mouse hippocampal POCD/PND-related studies. The work audits two small-n public datasets using a fixed, documentation-first pipeline, emphasizes annotation-caveat handling, and includes random-control sensitivity QC to contextualize signal stability. Cross-dataset interpretation is intentionally limited to descriptive concordance patterns and explicit uncertainty statements suitable for application packaging and reviewer-facing materials.
+MitoMet-POCD / NeuroMitoMap is a public-data reproducibility project centered on conservative, module-level transcriptomic comparison in mouse hippocampal POCD/PND-related studies. The work audits two small-n public datasets using a fixed, documentation-first pipeline, emphasizes annotation-caveat handling, and includes random-control sensitivity QC to contextualize signal stability. Cross-dataset interpretation is intentionally limited to descriptive concordance patterns and explicit uncertainty statements suitable for conservative documentation and project-summary materials.
 
 ## 6. Technical Report Abstract
-This project presents a conservative module-level audit of two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets. The objective is reproducible descriptive comparison rather than mechanistic inference. The analysis framework prioritizes transparent preprocessing records, module-level summarization, annotation-caveat handling, and random-control sensitivity quality checks. Cross-dataset outputs are interpreted with conservative language and are limited to directional or rank-level agreement assessments under small-n constraints. The resulting package is positioned as a hypothesis-generating public-data reproducibility resource with explicit uncertainty limits.
+This project presents a conservative module-level audit of two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets. The objective is reproducible descriptive comparison rather than mechanistic inference. The analysis framework prioritizes transparent preprocessing records, module-level summarization, annotation-caveat handling, and random-control sensitivity quality checks. Cross-dataset outputs are interpreted with conservative language and are limited to directional or rank-level agreement assessments under small-n constraints. The resulting documentation is positioned as a hypothesis-generating public-data reproducibility resource with explicit uncertainty limits.
 
 ## 7. Key Evidence Boundaries
 - Evidence is limited to **descriptive module-level comparison** in two small-n public datasets.
@@ -36,17 +36,17 @@ Avoid language that implies:
 - AI/ML-based biological discovery
 - strong statistical proof beyond the small-n evidence context
 
-## 9. Reviewer-Safe Summary
-NeuroMitoMap is packaged as a conservative, reproducibility-oriented module-level audit of two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets. The project’s strength is transparent documentation, annotation-caveat handling, and random-control sensitivity QC within a cautious cross-dataset comparison framework. Its intended contribution is application-ready, reviewer-safe public-data synthesis with explicit limits, not mechanistic or clinical claims.
+## 9. Conservative Summary
+NeuroMitoMap is a conservative, reproducibility-oriented module-level audit of two small-n public mouse hippocampal POCD/PND-related transcriptomic datasets. The project emphasizes transparent documentation, annotation-caveat handling, and random-control sensitivity QC within a cautious cross-dataset comparison framework. Its intended contribution is a conservative public-data synthesis with explicit limits, not mechanistic or clinical claims.
 
-## 10. Next Packaging Checklist
+## 10. Next Documentation Checklist
 - [ ] Confirm wording consistency with all repository-facing application materials.
 - [ ] Re-run documentation consistency checks for conservative-claim language.
 - [ ] Ensure small-n caveats are visible in README, abstract text, and summary docs.
 - [ ] Verify annotation-caveat notes are linked from top-level documentation.
-- [ ] Verify random-control sensitivity QC description appears in packaging summaries.
+- [ ] Verify random-control sensitivity QC description appears in project summaries.
 - [ ] Ensure cross-dataset comparison statements remain descriptive and non-causal.
-- [ ] Prepare reviewer-facing one-page summary using this wording baseline.
+- [ ] Prepare a one-page project summary using this wording baseline.
 - [ ] Final pass for banned overclaim phrases before external submission use.
 
 ## 11. PI Outreach Paragraph Template
