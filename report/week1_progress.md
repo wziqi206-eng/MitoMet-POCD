@@ -2,52 +2,30 @@
 
 ## Project Name
 
-MitoMet-POCD
+MitoMet-POCD / NeuroMitoMap
 
-## Project Goal
+## Week 1 Goal (Historical)
 
-This project aims to build a computational network model of postoperative cognitive dysfunction by integrating mitochondrial dysfunction, metabolic disruption, oxidative inflammation, and synaptic plasticity.
+Week 1 focused on repository initialization, reference-table setup, and dataset planning for a public-data transcriptomic audit workflow.
 
 ## Completed Work
 
 - Created the GitHub repository: `MitoMet-POCD`
-- Established the initial project folder structure
-- Created the literature evidence table
-- Created the first version of POCD-related pathway modules
-- Created the public dataset registry
-- Updated the README with project overview, biological rationale, workflow, planned analyses, and expected outputs
+- Established initial folder structure
+- Created literature/reference tracking tables
+- Created early POCD-related module list draft
+- Created public dataset registry
+- Updated README with initial project overview and workflow draft
 
-## Current Core Files
+## Current Core Files (Week 1)
 
 | File | Purpose |
 |---|---|
 | `README.md` | Main project overview |
-| `references/literature_matrix.csv` | Literature-derived mechanism evidence |
-| `references/gene_sets/pocd_modules_v1.csv` | First version of curated POCD-related gene modules |
+| `references/literature_matrix.csv` | Literature tracking table |
+| `references/gene_sets/pocd_modules_v1.csv` | Early curated module draft |
 | `data/metadata/dataset_registry.csv` | Planned public datasets for analysis |
 
-## Current Biological Modules
+## Notes (Current Alignment)
 
-The current version includes eight modules:
-
-1. NAD+ / SIRT1 metabolism
-2. Fatty acid oxidation
-3. Mitochondrial respiratory chain
-4. Oxidative stress
-5. Inflammation / NF-kB / MAPK
-6. Insulin signaling
-7. TGF-beta / SMAD signaling
-8. CREB / NR2B / synaptic plasticity
-
-## Next Tasks
-
-1. Download and inspect GSE95426
-2. Create sample metadata for GSE95426
-3. Prepare the expression matrix
-4. Run first-pass differential expression analysis
-5. Generate the first volcano plot and heatmap
-6. Calculate module scores for the eight curated gene modules
-
-## Notes
-
-This project is currently in the MVP construction phase. The current goal is not to prove causality, but to build a computational hypothesis-generating framework for prioritizing POCD-related molecular pathways and candidate drivers.
+This file is a historical week-1 snapshot. Under current project positioning, the repository should be interpreted as a conservative module-level public-data audit with explicit small-n caveats and descriptive-only conclusions.
